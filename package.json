@@ -1,0 +1,29 @@
+{
+  "name": "usaco-problems",
+  "version": "1.0.0",
+  "description": "Metadata for past USACO problems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpinitiative/usaco-problems.git"
+  },
+  "author": "Daniel Zhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpinitiative/usaco-problems/issues"
+  },
+  "homepage": "https://github.com/cpinitiative/usaco-problems#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "prettier": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
