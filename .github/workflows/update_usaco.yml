@@ -11,5 +11,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run script
-        run: source run.sh
+        run: |
+          npm ci 
+          source run.sh
     
