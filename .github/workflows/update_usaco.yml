@@ -15,4 +15,6 @@ jobs:
           git branch auto
           npm ci 
           source run.sh || source create_pr.sh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
     
