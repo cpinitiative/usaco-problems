@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - '.github/workflows/update_usaco.yml'
+      - 'run.sh'
+      - 'create_pr.sh'
 
 jobs:
   scrape_usaco:
