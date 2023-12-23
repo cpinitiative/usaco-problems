@@ -18,6 +18,7 @@ jobs:
       - name: Run auto updates
         run: |
           git branch auto
+          git checkout auto
           npm ci 
           source run.sh || source create_pr.sh
         env:
