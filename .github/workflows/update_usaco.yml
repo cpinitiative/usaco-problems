@@ -1,0 +1,15 @@
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * 12,1,2,3 2,3,4'
+
+jobs:
+  scrape_usaco:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run script
+        run: ./run.sh
+    
