@@ -10,8 +10,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Run script
+      - name: Run auto updates
         run: |
+          git branch auto
           npm ci 
-          source run.sh
+          source run.sh || source create_pr.sh
     
