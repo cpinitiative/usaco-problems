@@ -1,7 +1,5 @@
-// run `node usaco_util.mjs`
 import axios from 'axios';
 import { writeFileSync } from 'fs';
-import * as prettier from 'prettier';
 
 export type Sample = {
   input: string;
@@ -88,13 +86,13 @@ async function addProblem(id: number) {
   while (!await addProblem(id++)) {
     if (id - LAST_ID > MAX_GAP) {
       console.log('No more problems to add!');
-      break;
+      process.exit(0);
     }
   }
-  if (id < LAST_ID + MAX_GAP) while (await addProblem(id++));
-
+  while (await addProblem(id++));
   writeFileSync(
     'problems.json', 
     JSON.stringify(problems, null, 2)
   );
+  process.exit(1);
 })();
