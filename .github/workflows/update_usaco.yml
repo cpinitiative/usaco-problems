@@ -2,6 +2,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * 12,1,2,3 2,3,4'
+  push:
+    paths:
+      - '.github/workflows/update_usaco.yml'
 
 jobs:
   scrape_usaco:
