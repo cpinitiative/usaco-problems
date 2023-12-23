@@ -27,6 +27,7 @@ export type ProblemData = {
 };
 
 const problems = require('./problems.json') as { [key: string]: ProblemData };
+let report = 'added problems:\n```\n';
 
 async function addProblem(id: number) {
   console.log('Adding problem', id);
@@ -71,6 +72,7 @@ async function addProblem(id: number) {
       })),
     };
     console.log('Problem added!');
+    report += `id ${id}: ${problems[id].title.name} (#${problems[id].title.place} from ${problems[id].source.sourceString})\n`;
     return true;
   } catch (error) {
     console.log('Invalid problem id!');
@@ -90,9 +92,14 @@ async function addProblem(id: number) {
     }
   }
   while (await addProblem(id++));
+  report += '```';
   writeFileSync(
     'problems.json', 
     JSON.stringify(problems, null, 2)
+  );
+  writeFileSync(
+    'out/report.txt',
+    report
   );
   process.exit(1);
 })();

@@ -19,6 +19,7 @@ jobs:
         run: |
           git branch auto
           git checkout auto
+          mkdir out
           npm ci 
           source run.sh || source create_pr.sh
         env:
