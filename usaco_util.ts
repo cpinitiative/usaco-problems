@@ -84,14 +84,14 @@ async function addProblem(id: number) {
 (async () => {
   const MAX_GAP = 20;
   const LAST_ID = Math.max(...Object.keys(problems).map(Number));
-  let id = LAST_ID + 1;
-  while (!await addProblem(id++)) {
-    if (id - LAST_ID > MAX_GAP) {
-      console.log('No more problems to add!');
-      process.exit(0);
+  let last_added = LAST_ID;
+  let id = last_added + 1;
+  while (id - last_added < MAX_GAP) {
+    if (await addProblem(id++)) {
+      last_added = id - 1;
     }
   }
-  while (await addProblem(id++));
+  if (last_added == LAST_ID) process.exit(0);
   report += '```';
   writeFileSync(
     'problems.json', 

@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - '.github/workflows/update_usaco.yml'
+      - 'usaco_util.ts'
       - 'run.sh'
       - 'create_pr.sh'
 
