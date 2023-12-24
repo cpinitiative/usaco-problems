@@ -14360,5 +14360,365 @@
         "output": "8\n10\n2\n0\n0\n"
       }
     ]
+  },
+  "1347": {
+    "id": 1347,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1347",
+    "source": {
+      "sourceString": "2023 December Bronze",
+      "year": 2023,
+      "contest": "December",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Candy Cane Feast",
+      "place": 1,
+      "name": "Candy Cane Feast"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 2\n3 2 5\n6 1\n",
+        "output": "7\n2\n7\n"
+      }
+    ]
+  },
+  "1348": {
+    "id": 1348,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1348",
+    "source": {
+      "sourceString": "2023 December Bronze",
+      "year": 2023,
+      "contest": "December",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Cowntact Tracing 2",
+      "place": 2,
+      "name": "Cowntact Tracing 2"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5\n11111\n",
+        "output": "1\n"
+      },
+      {
+        "input": "6\n011101\n",
+        "output": "4\n"
+      }
+    ]
+  },
+  "1349": {
+    "id": 1349,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1349",
+    "source": {
+      "sourceString": "2023 December Bronze",
+      "year": 2023,
+      "contest": "December",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Farmer John Actually Farms",
+      "place": 3,
+      "name": "Farmer John Actually Farms"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "6\n1\n10\n1\n0\n2\n7 3\n8 10\n1 0\n2\n3 6\n10 8\n0 1\n2\n7 3\n8 9\n1 0\n2\n7 7\n8 8\n0 1\n2\n7 3\n8 8\n1 0\n",
+        "output": "0\n3\n2\n5\n-1\n-1\n"
+      },
+      {
+        "input": "2\n5\n7 4 1 10 12\n3 4 5 2 1\n2 1 0 3 4\n5\n4 10 12 7 1\n3 1 1 4 5\n2 4 3 1 0\n",
+        "output": "4\n7\n"
+      }
+    ]
+  },
+  "1350": {
+    "id": 1350,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1350",
+    "source": {
+      "sourceString": "2023 December Silver",
+      "year": 2023,
+      "contest": "December",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Bovine Acrobatics",
+      "place": 1,
+      "name": "Bovine Acrobatics"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 5 2\n9 4\n7 6\n5 5\n",
+        "output": "14\n"
+      },
+      {
+        "input": "3 5 3\n5 5\n7 6\n9 4\n",
+        "output": "9\n"
+      }
+    ]
+  },
+  "1351": {
+    "id": 1351,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1351",
+    "source": {
+      "sourceString": "2023 December Silver",
+      "year": 2023,
+      "contest": "December",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Cycle Correspondence",
+      "place": 2,
+      "name": "Cycle Correspondence"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "6 3\n1 2 3\n2 3 1\n",
+        "output": "6\n"
+      },
+      {
+        "input": "6 3\n1 2 3\n4 5 6\n",
+        "output": "0\n"
+      },
+      {
+        "input": "6 4\n1 2 3 4\n4 3 2 5\n",
+        "output": "4\n"
+      }
+    ]
+  },
+  "1352": {
+    "id": 1352,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1352",
+    "source": {
+      "sourceString": "2023 December Silver",
+      "year": 2023,
+      "contest": "December",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Target Practice",
+      "place": 3,
+      "name": "Target Practice"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 7\n0 -1 1\nLFFRFRR\n",
+        "output": "3\n"
+      },
+      {
+        "input": "1 5\n0\nFFFFF\n",
+        "output": "1\n"
+      },
+      {
+        "input": "5 6\n1 2 3 4 5\nFFRFRF\n",
+        "output": "3\n"
+      }
+    ]
+  },
+  "1353": {
+    "id": 1353,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1353",
+    "source": {
+      "sourceString": "2023 December Gold",
+      "year": 2023,
+      "contest": "December",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Flight Routes",
+      "place": 1,
+      "name": "Flight Routes"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n11\n1\n",
+        "output": "2\n"
+      },
+      {
+        "input": "5\n1111\n101\n01\n1\n",
+        "output": "6\n"
+      }
+    ]
+  },
+  "1354": {
+    "id": 1354,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1354",
+    "source": {
+      "sourceString": "2023 December Gold",
+      "year": 2023,
+      "contest": "December",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Minimum Longest Trip",
+      "place": 2,
+      "name": "Minimum Longest Trip"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4 5\n4 3 10\n4 2 10\n3 1 10\n2 1 10\n4 1 10\n",
+        "output": "0 0\n1 10\n1 10\n2 20\n"
+      },
+      {
+        "input": "4 5\n4 3 4\n4 2 2\n3 1 5\n2 1 10\n4 1 1\n",
+        "output": "0 0\n1 10\n1 5\n2 12\n"
+      },
+      {
+        "input": "4 5\n4 3 2\n4 2 2\n3 1 5\n2 1 10\n4 1 1\n",
+        "output": "0 0\n1 10\n1 5\n2 7\n"
+      },
+      {
+        "input": "4 5\n4 3 2\n4 2 2\n3 1 10\n2 1 5\n4 1 1\n",
+        "output": "0 0\n1 5\n1 10\n2 7\n"
+      }
+    ]
+  },
+  "1355": {
+    "id": 1355,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1355",
+    "source": {
+      "sourceString": "2023 December Gold",
+      "year": 2023,
+      "contest": "December",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Haybale Distribution",
+      "place": 3,
+      "name": "Haybale Distribution"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5\n1 4 2 3 10\n4\n1 1\n2 1\n1 2\n1 4\n",
+        "output": "11\n13\n18\n30\n"
+      }
+    ]
+  },
+  "1356": {
+    "id": 1356,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1356",
+    "source": {
+      "sourceString": "2023 December Platinum",
+      "year": 2023,
+      "contest": "December",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Cowntact Tracing",
+      "place": 1,
+      "name": "Cowntact Tracing"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5\n11111\n1 2\n2 3\n3 4\n4 5\n6\n5\n4\n3\n2\n1\n0\n",
+        "output": "1\n1\n1\n1\n2\n5\n"
+      },
+      {
+        "input": "10\n1111111111\n1 2\n2 3\n2 4\n2 5\n2 6\n6 7\n7 8\n8 9\n9 10\n11\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
+        "output": "10\n3\n2\n1\n1\n1\n1\n1\n1\n1\n1\n"
+      },
+      {
+        "input": "5\n11100\n1 2\n2 3\n3 4\n4 5\n6\n0\n1\n2\n3\n4\n5\n",
+        "output": "3\n1\n1\n-1\n-1\n-1\n"
+      }
+    ]
+  },
+  "1357": {
+    "id": 1357,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1357",
+    "source": {
+      "sourceString": "2023 December Platinum",
+      "year": 2023,
+      "contest": "December",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. A Graph Problem",
+      "place": 2,
+      "name": "A Graph Problem"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 2\n1 2\n2 3\n",
+        "output": "12\n12\n21\n"
+      },
+      {
+        "input": "5 6\n1 2\n3 4\n2 4\n2 3\n2 5\n1 5\n",
+        "output": "1325\n1325\n2315\n2315\n5132\n"
+      },
+      {
+        "input": "15 14\n1 2\n2 3\n3 4\n4 5\n5 6\n6 7\n7 8\n8 9\n9 10\n10 11\n11 12\n12 13\n13 14\n14 15\n",
+        "output": "678925929\n678925929\n678862929\n678787329\n678709839\n678632097\n178554320\n218476543\n321398766\n431520989\n542453212\n653475435\n764507558\n875540761\n986574081\n"
+      }
+    ]
+  },
+  "1358": {
+    "id": 1358,
+    "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=1358",
+    "source": {
+      "sourceString": "2023 December Platinum",
+      "year": 2023,
+      "contest": "December",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Train Scheduling",
+      "place": 3,
+      "name": "Train Scheduling"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "1 95\nB 63\n",
+        "output": "0\n"
+      },
+      {
+        "input": "4 1\nB 3\nB 2\nA 1\nA 3\n",
+        "output": "1\n"
+      },
+      {
+        "input": "4 10\nA 1\nB 2\nA 3\nA 21\n",
+        "output": "13\n"
+      },
+      {
+        "input": "8 125000000000\nB 17108575619\nB 57117098303\nA 42515717584\nB 26473500855\nA 108514697534\nB 110763448122\nB 117731666682\nA 29117227954\n",
+        "output": "548047356974\n"
+      }
+    ]
   }
 }
