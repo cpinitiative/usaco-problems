@@ -6,7 +6,7 @@ on:
     - cron: '0 0 * 12,1,2,3 2,3,4'
   push:
     paths:
-      - '.github/workflows/update_usaco.yml'
+      - '.github/workflows/autofetch.yml'
       - 'usaco_util.ts'
       - 'run.sh'
       - 'push.sh'
