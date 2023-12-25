@@ -29,6 +29,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
       - name: Ping usaco-guide
         uses: actions/github-script@v6
         with:
