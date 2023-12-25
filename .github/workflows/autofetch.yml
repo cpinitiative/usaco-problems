@@ -23,9 +23,16 @@ jobs:
           source run.sh || source push.sh
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      - name: Generate a token
+        id: generate_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - name: Ping usaco-guide
         uses: actions/github-script@v6
         with:
+          github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             github.rest.actions.createWorkflowDispatch({
               owner: 'devo1ution',
