@@ -1,9 +1,11 @@
-import { createWriteStream, mkdirSync, readFileSync, readdirSync, writeFileSync } from "fs";
+import { createWriteStream, mkdirSync, readFileSync, readdir, readdirSync, writeFileSync } from "fs";
 import { ProblemData } from "./ProblemData";
 import * as prettier from "prettier";
 
 process.chdir(__dirname);
-const ids = readFileSync(process.argv[2]).toString().split("\n");
+console.log(process.cwd);
+console.log(readdirSync('.'));
+const ids = readFileSync('./' + process.argv[2]).toString().split("\n");
 const json_path = process.argv[3];
 const extraProblems = require('./' + json_path);
 const problems = require('./problems.json') as { [key: string]: ProblemData };
