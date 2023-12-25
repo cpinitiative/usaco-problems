@@ -29,15 +29,16 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
       - name: Ping usaco-guide
         uses: actions/github-script@v6
         with:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             github.rest.actions.createWorkflowDispatch({
-              owner: 'devo1ution',
+              owner: '${{ github.repository_owner }}',
               repo: 'usaco-guide',
               workflow_id: 'update-usaco.yml',
-              ref: 'algolia',
+              ref: 'master',
             })
     
