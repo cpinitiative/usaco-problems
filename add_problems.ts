@@ -1,11 +1,16 @@
-import { createWriteStream, readFileSync, writeFileSync } from "fs";
+import { createWriteStream, mkdirSync, readFileSync, readdirSync, writeFileSync } from "fs";
 import { ProblemData } from "./ProblemData";
-import prettier from "prettier";
+import * as prettier from "prettier";
 
-const ids = readFileSync(process.argv[2]).toString().split("\n");
+console.log(__dirname);
+process.chdir(__dirname);
+console.log(process.cwd());
+console.log(readdirSync('.'));
+const ids = readFileSync('./' + process.argv[2]).toString().split("\n");
 const json_path = process.argv[3];
 const extraProblems = require('./' + json_path);
 const problems = require('./problems.json') as { [key: string]: ProblemData };
+if (!readdirSync('.').find(x => x == 'out')) mkdirSync('out');
 const report = createWriteStream('out/report.txt');
 report.write('added problems:\n```\n');
 for (const id in problems) {
