@@ -36,7 +36,7 @@ jobs:
           github-token: ${{ steps.generate_token.outputs.token }}
           script: |
             github.rest.actions.createWorkflowDispatch({
-              owner: ${{ github.repository_owner }},
+              owner: '${{ github.repository_owner }}',
               repo: 'usaco-guide',
               workflow_id: 'update-usaco.yml',
               ref: 'algolia',
