@@ -1,4 +1,4 @@
-import { createWriteStream, mkdirSync, readFileSync, readdir, readdirSync, writeFileSync } from "fs";
+import { createWriteStream, mkdirSync, readFileSync, readdirSync, writeFileSync } from "fs";
 import { ProblemData } from "./ProblemData";
 import * as prettier from "prettier";
 
