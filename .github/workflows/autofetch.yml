@@ -39,6 +39,6 @@ jobs:
               owner: '${{ github.repository_owner }}',
               repo: 'usaco-guide',
               workflow_id: 'update-usaco.yml',
-              ref: 'algolia',
+              ref: 'master',
             })
     
