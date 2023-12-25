@@ -9,7 +9,7 @@ on:
       - '.github/workflows/update_usaco.yml'
       - 'usaco_util.ts'
       - 'run.sh'
-      - 'create_pr.sh'
+      - 'push.sh'
 
 jobs:
   scrape_usaco:
@@ -17,14 +17,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
       - name: Run auto updates
         run: |
-          git branch auto
-          git checkout auto
-          mkdir out
           npm ci 
-          source run.sh || source create_pr.sh
+          source run.sh || source push.sh
         env:
           GITHUB_TOKEN: ${{ github.token }}
     

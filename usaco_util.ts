@@ -1,36 +1,12 @@
 import axios from 'axios';
 import { writeFileSync } from 'fs';
-
-export type Sample = {
-  input: string;
-  output: string;
-};
-
-export type ProblemData = {
-  id: number;
-  url: string;
-  source: {
-    sourceString: string;
-    year: number;
-    contest: string;
-    division: string;
-  };
-  submittable: boolean;
-  title: {
-    titleString: string;
-    place: number;
-    name: string;
-  };
-  input: string;
-  output: string;
-  samples: Sample[];
-};
+import { ProblemData } from './ProblemData';
 
 const problems = require('./problems.json') as { [key: string]: ProblemData };
 let report = 'added problems:\n```\n';
 
 async function addProblem(id: number) {
-  console.log('Adding problem', id);
+  // console.log('Adding problem', id);
   try {
     const url = `http://usaco.org/index.php?page=viewproblem2&cpid=${id}`;
     const response = await axios.get(url);
@@ -48,7 +24,7 @@ async function addProblem(id: number) {
     const sample_output = /<h4>SAMPLE OUTPUT:<\/h4>\s*<pre class='out'>\n?([\w\W]*?)<\/pre>/g;
     const inputs = [...htmlContent.matchAll(sample_input)!].map(match => match[1]);
     const outputs = [...htmlContent.matchAll(sample_output)!].map(match => match[1]);
-    console.log('Problem', number, title, year, month, division);
+    // console.log('Problem', number, title, year, month, division);
     problems[id] = {
       id: id,
       url: `http://www.usaco.org/index.php?page=viewproblem2&cpid=${id}`,
@@ -71,17 +47,16 @@ async function addProblem(id: number) {
         output: outputs[i],
       })),
     };
-    console.log('Problem added!');
-    report += `id ${id}: ${problems[id].title.name} (#${problems[id].title.place} from ${problems[id].source.sourceString})\n`;
+    // console.log('Problem added!');
+    console.log(`id ${id}: ${problems[id].title.name} (#${problems[id].title.place} from ${problems[id].source.sourceString})\n`);
     return true;
   } catch (error) {
-    console.log('Invalid problem id!');
     return false;
   }
 }
 
-// max id gap between two consecutive contests
 (async () => {
+  // max id gap between two consecutive contests
   const MAX_GAP = 20;
   const LAST_ID = Math.max(...Object.keys(problems).map(Number));
   let last_added = LAST_ID;
@@ -96,10 +71,6 @@ async function addProblem(id: number) {
   writeFileSync(
     'problems.json', 
     JSON.stringify(problems, null, 2)
-  );
-  writeFileSync(
-    'out/report.txt',
-    report
   );
   process.exit(1);
 })();
