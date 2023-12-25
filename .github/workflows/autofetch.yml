@@ -26,6 +26,7 @@ jobs:
       - name: Ping usaco-guide
         uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.PAT }} 
           script: |
             github.rest.actions.createWorkflowDispatch({
               owner: 'devo1ution',
