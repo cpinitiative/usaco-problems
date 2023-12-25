@@ -2,8 +2,9 @@ import { createWriteStream, mkdirSync, readFileSync, readdirSync, writeFileSync 
 import { ProblemData } from "./ProblemData";
 import * as prettier from "prettier";
 
+console.log(__dirname);
 process.chdir(__dirname);
-console.log(process.cwd);
+console.log(process.cwd());
 console.log(readdirSync('.'));
 const ids = readFileSync('./' + process.argv[2]).toString().split("\n");
 const json_path = process.argv[3];
