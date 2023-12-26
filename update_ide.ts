@@ -7,5 +7,6 @@ index.replaceAllObjects(
     ...x,
     title: x.title.titleString,
     source: x.source.sourceString
-  }))
+  })),
+  { autoGenerateObjectIDIfNotExist: true }
 ).catch(console.error);
