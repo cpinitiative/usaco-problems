@@ -23,6 +23,11 @@ jobs:
           source run.sh || source push.sh
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      - name: Update usacoProblems for IDE
+        run: |
+          npx ts-node update_ide
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
       - name: Generate a token
         id: generate_token
         uses: actions/create-github-app-token@v1
