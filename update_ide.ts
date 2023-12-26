@@ -8,4 +8,4 @@ index.replaceAllObjects(
     title: x.title.titleString,
     source: x.source.sourceString
   }))
-);
+).catch(console.error);
