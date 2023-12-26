@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/autofetch.yml'
       - 'usaco_util.ts'
+      - 'update_ide.ts'
       - 'run.sh'
       - 'push.sh'
 
