@@ -11,7 +11,7 @@ if (!readdirSync('.').find(x => x == 'out')) mkdirSync('out');
 const report = createWriteStream('out/report.txt');
 report.write('added problems:\n```\n');
 for (const id in problems) {
-  if (!ids.find(x => x == `usaco-${id}`)) {
+  if (!ids.find(x => x == `usaco-${id}`) && id != '742') {
     extraProblems.EXTRA_PROBLEMS.push({
       uniqueId: `usaco-${id}`,
       name: problems[id].title.name,
