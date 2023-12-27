@@ -14,10 +14,10 @@ const EXTRAPROBLEMS_PATH = '../content/extraProblems.json';
 const extraProblems = require(EXTRAPROBLEMS_PATH);
 const DIVTOPROBS_PATH =
   '../src/components/markdown/ProblemsList/DivisionList/div_to_probs.json';
-const div_to_probs = require(DIVTOPROBS_PATH);
+const div_to_probs = require(DIVTOPROBS_PATH) as { [key: string]: string[][] };
 const IDTOSOL_PATH =
   '../src/components/markdown/ProblemsList/DivisionList/id_to_sol.json';
-const id_to_sol = require(IDTOSOL_PATH);
+const id_to_sol = require(IDTOSOL_PATH) as { [key: string]: string };
 const problems = require('./problems.json') as { [key: string]: ProblemData };
 if (!readdirSync('.').find(x => x == 'out')) mkdirSync('out');
 const report = createWriteStream('out/report.txt');
