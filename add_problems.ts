@@ -23,7 +23,13 @@ if (!readdirSync('.').find(x => x == 'out')) mkdirSync('out');
 const report = createWriteStream('out/report.txt');
 report.write('added problems:\n```\n');
 for (const id in problems) {
-  if (id == '742' || problems[id].source.year < 2015) continue; // id 742: modern art :(
+  if (
+    id == '742' ||
+    problems[id].source.year < 2015 ||
+    (problems[id].source.year == 2015 &&
+      problems[id].source.contest != 'December')
+  )
+    continue; // id 742: modern art :(
   if (!ids.find(x => x == `usaco-${id}`)) {
     extraProblems.EXTRA_PROBLEMS.push({
       uniqueId: `usaco-${id}`,
