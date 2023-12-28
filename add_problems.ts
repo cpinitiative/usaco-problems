@@ -8,7 +8,7 @@ import {
 import * as prettier from 'prettier';
 import { ProblemData } from './ProblemData';
 
-process.chdir(__dirname);
+process.chdir(__dirname); // aligns require paths and write paths
 const ids = readFileSync('../ids.log').toString().split('\n');
 const EXTRAPROBLEMS_PATH = '../content/extraProblems.json';
 const extraProblems = require(EXTRAPROBLEMS_PATH);
@@ -23,7 +23,13 @@ if (!readdirSync('.').find(x => x == 'out')) mkdirSync('out');
 const report = createWriteStream('out/report.txt');
 report.write('added problems:\n```\n');
 for (const id in problems) {
-  if (id == '742') continue; // modern art :(
+  if (
+    id == '742' ||
+    problems[id].source.year < 2015 ||
+    (problems[id].source.year == 2015 &&
+      problems[id].source.contest != 'December')
+  )
+    continue; // id 742: modern art :(
   if (!ids.find(x => x == `usaco-${id}`)) {
     extraProblems.EXTRA_PROBLEMS.push({
       uniqueId: `usaco-${id}`,
@@ -39,17 +45,19 @@ for (const id in problems) {
       },
     });
     report.write(
+      // example: 'id 1355: Haybale Distribution (#3 from 2023 December Gold)'
       `id ${id}: ${problems[id].title.name} (#${problems[id].title.place} from ${problems[id].source.sourceString})\n`
     );
   }
   if (!div_to_probs[problems[id].source.division].find(x => x[0] == id)) {
+    //example: ["1352", "2023 December", "Target Practice"]
     div_to_probs[problems[id].source.division].push([
       id,
       `${problems[id].source.year} ${problems[id].source.contest}`,
       problems[id].title.name,
     ]);
   }
-  const mon =
+  const mon = // dec, jan, feb, open
     problems[id].source.contest === 'US Open'
       ? 'open'
       : problems[id].source.contest.substring(0, 3).toLowerCase();
@@ -62,6 +70,12 @@ for (const id in problems) {
   }
 }
 report.write('```\n');
+for (const div in div_to_probs) {
+  // sort by id
+  div_to_probs[div].sort((a, b) => {
+    return Number(a[0]) - Number(b[0]);
+  });
+}
 (async () => {
   writeFileSync(
     EXTRAPROBLEMS_PATH,
