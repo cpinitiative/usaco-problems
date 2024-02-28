@@ -22,7 +22,8 @@ jobs:
       - name: Run auto updates
         run: |
           npm ci 
-          source run.sh && source push.sh
+          source run.sh
+          source push.sh
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Update usacoProblems for IDE
