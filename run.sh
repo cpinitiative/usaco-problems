@@ -1,1 +1,1 @@
-npx ts-node usaco_util.ts
+npx ts-node --skipProject usaco_util.ts

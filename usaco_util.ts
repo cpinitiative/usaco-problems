@@ -77,5 +77,4 @@ async function addProblem(id: number) {
   if (last_added == LAST_ID) process.exit(0);
   report += '```';
   writeFileSync('problems.json', JSON.stringify(problems, null, 2));
-  process.exit(1);
 })();
