@@ -59,6 +59,7 @@ async function addProblem(id: number) {
     );
     return true;
   } catch (error) {
+    console.log(error);
     return false;
   }
 }
