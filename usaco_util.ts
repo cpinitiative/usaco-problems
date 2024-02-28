@@ -6,7 +6,6 @@ const problems = require('./problems.json') as { [key: string]: ProblemData };
 let report = 'added problems:\n```\n';
 
 async function addProblem(id: number) {
-  console.log('Adding problem ', id);
   try {
     const url = `https://usaco.org/index.php?page=viewproblem2&cpid=${id}`;
     const response = await (await fetch(url)).text();
@@ -59,7 +58,7 @@ async function addProblem(id: number) {
     );
     return true;
   } catch (error) {
-    console.log(error);
+    if (!(error instanceof TypeError)) console.log(error);
     return false;
   }
 }
