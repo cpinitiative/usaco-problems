@@ -15052,5 +15052,349 @@
         "output": "441563023\n"
       }
     ]
+  },
+  "1395": {
+    "id": 1395,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1395",
+    "source": {
+      "sourceString": "2024 February Bronze",
+      "year": 2024,
+      "contest": "February",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Palindrome Game",
+      "place": 1,
+      "name": "Palindrome Game"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n8\n10\n12\n",
+        "output": "B\nE\nB\n"
+      }
+    ]
+  },
+  "1396": {
+    "id": 1396,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1396",
+    "source": {
+      "sourceString": "2024 February Bronze",
+      "year": 2024,
+      "contest": "February",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Milk Exchange",
+      "place": 2,
+      "name": "Milk Exchange"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 1\nRRL\n1 1 1\n",
+        "output": "2\n"
+      },
+      {
+        "input": "5 20\nLLLLL\n3 3 2 3 3\n",
+        "output": "14\n"
+      },
+      {
+        "input": "9 5\nRRRLRRLLR\n5 8 4 9 3 4 9 5 4\n",
+        "output": "38\n"
+      }
+    ]
+  },
+  "1397": {
+    "id": 1397,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1397",
+    "source": {
+      "sourceString": "2024 February Bronze",
+      "year": 2024,
+      "contest": "February",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Maximizing Productivity",
+      "place": 3,
+      "name": "Maximizing Productivity"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5 5\n3 5 7 9 12\n4 2 3 3 8\n1 5\n1 6\n3 3\n4 2\n5 1\n",
+        "output": "YES\nNO\nYES\nYES\nNO\n"
+      }
+    ]
+  },
+  "1398": {
+    "id": 1398,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1398",
+    "source": {
+      "sourceString": "2024 February Silver",
+      "year": 2024,
+      "contest": "February",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Target Practice II",
+      "place": 1,
+      "name": "Target Practice II"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n2 1\n1 3 6\n4 6 3\n1 -1 2 -2 3 -3 4 -4\n2 1\n1 3 6\n4 6 3\n1 1 2 2 3 3 4 4\n2 1\n1 3 3\n4 6 3\n1 -1 2 -2 3 -3 4 -4\n",
+        "output": "17\n-1\n11\n"
+      }
+    ]
+  },
+  "1399": {
+    "id": 1399,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1399",
+    "source": {
+      "sourceString": "2024 February Silver",
+      "year": 2024,
+      "contest": "February",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Test Tubes",
+      "place": 2,
+      "name": "Test Tubes"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "6\n4 1\n1221\n2211\n4 2\n1221\n2211\n4 3\n1221\n2211\n6 3\n222222\n111112\n4 3\n1121\n1222\n4 2\n1121\n1222\n",
+        "output": "4\n4\n1 2\n1 3\n2 1\n3 2\n4\n1 2\n1 3\n2 1\n3 2\n1\n2 1\n5\n2 3\n1 2\n1 3\n1 2\n3 1\n6\n2 3\n1 2\n1 3\n1 2\n2 1\n3 2\n"
+      }
+    ]
+  },
+  "1400": {
+    "id": 1400,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1400",
+    "source": {
+      "sourceString": "2024 February Silver",
+      "year": 2024,
+      "contest": "February",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Moorbles",
+      "place": 3,
+      "name": "Moorbles"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2\n10 3 2\n2 5\n1 3\n1 3\n10 3 3\n2 7 5\n8 3 4\n2 5 6\n",
+        "output": "Even Even Odd\n-1\n"
+      },
+      {
+        "input": "1\n20 8 2\n3 5\n3 5\n3 5\n3 5\n3 5\n3 5\n3 5\n3 5\n",
+        "output": "Even Even Even Odd Even Odd Even Odd\n"
+      }
+    ]
+  },
+  "1401": {
+    "id": 1401,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1401",
+    "source": {
+      "sourceString": "2024 February Gold",
+      "year": 2024,
+      "contest": "February",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Bessla Motors",
+      "place": 1,
+      "name": "Bessla Motors"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 3 1 4 1\n1 2 3\n1 3 5\n2 3 2\n",
+        "output": "1\n2\n"
+      },
+      {
+        "input": "4 3 2 101 2\n1 2 1\n2 3 100\n1 4 10\n",
+        "output": "2\n3\n4\n"
+      },
+      {
+        "input": "4 3 2 100 2\n1 2 1\n2 3 100\n1 4 10\n",
+        "output": "1\n4\n"
+      }
+    ]
+  },
+  "1402": {
+    "id": 1402,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1402",
+    "source": {
+      "sourceString": "2024 February Gold",
+      "year": 2024,
+      "contest": "February",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Milk Exchange",
+      "place": 2,
+      "name": "Milk Exchange"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "6\n2 2 2 1 2 1\n",
+        "output": "8\n7\n6\n6\n6\n6\n"
+      },
+      {
+        "input": "8\n3 8 6 4 8 3 8 1\n",
+        "output": "25\n20\n17\n14\n12\n10\n8\n8\n"
+      },
+      {
+        "input": "10\n9 9 10 10 6 8 2 1000000000 1000000000 1000000000\n",
+        "output": "2000000053\n1000000054\n56\n49\n42\n35\n28\n24\n20\n20\n"
+      }
+    ]
+  },
+  "1403": {
+    "id": 1403,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1403",
+    "source": {
+      "sourceString": "2024 February Gold",
+      "year": 2024,
+      "contest": "February",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Quantum Moochanics",
+      "place": 3,
+      "name": "Quantum Moochanics"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4\n2\n1 11\n1 1\n2\n1 12\n1 1\n2\n1 11\n4 6\n2\n1 11\n4 5\n",
+        "output": "9 9\n11 11\n1 1\n3 3\n"
+      },
+      {
+        "input": "2\n4\n1 3 5 8\n1 1 1 1\n4\n1 4 5 8\n1 1 1 1\n",
+        "output": "1 1 3 3\n7 2 2 7\n"
+      }
+    ]
+  },
+  "1404": {
+    "id": 1404,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1404",
+    "source": {
+      "sourceString": "2024 February Platinum",
+      "year": 2024,
+      "contest": "February",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Lazy Cow",
+      "place": 1,
+      "name": "Lazy Cow"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4\n5 11\n6 10\n10 15\n10 30\n",
+        "output": "21\n21\n25\n90\n"
+      },
+      {
+        "input": "2\n100 5\n100 1000000000000\n",
+        "output": "5\n627323485\n"
+      },
+      {
+        "input": "20\n303590 482848034083\n180190 112716918480\n312298 258438719980\n671877 605558355401\n662137 440411075067\n257593 261569032231\n766172 268433874550\n8114 905639446594\n209577 11155741818\n227183 874665904430\n896141 55422874585\n728247 456681845046\n193800 632739601224\n443005 623200306681\n330325 955479269245\n377303 177279745225\n880246 22559233849\n58084 155169139314\n813702 758370488574\n929760 785245728062\n",
+        "output": "108753959\n108753959\n108753959\n148189797\n148189797\n148189797\n148189797\n32884410\n32884410\n32884410\n32884410\n32884410\n32884410\n32884410\n3883759\n3883759\n3883759\n3883759\n3883759\n3883759\n"
+      }
+    ]
+  },
+  "1405": {
+    "id": 1405,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1405",
+    "source": {
+      "sourceString": "2024 February Platinum",
+      "year": 2024,
+      "contest": "February",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Minimum Sum of Maximums",
+      "place": 2,
+      "name": "Minimum Sum of Maximums"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 0\n1 100 10\n\n",
+        "output": "110\n"
+      },
+      {
+        "input": "3 1\n1 100 10\n3\n",
+        "output": "110\n"
+      },
+      {
+        "input": "3 1\n1 100 10\n2\n",
+        "output": "200\n"
+      },
+      {
+        "input": "4 2\n1 3 2 4\n2 3\n",
+        "output": "9\n"
+      }
+    ]
+  },
+  "1406": {
+    "id": 1406,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1406",
+    "source": {
+      "sourceString": "2024 February Platinum",
+      "year": 2024,
+      "contest": "February",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Infinite Adventure",
+      "place": 3,
+      "name": "Infinite Adventure"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5 4\n1 2 1 2 8\n2\n3 4\n4\n2 3\n5 5 5 5 5 1 5 5\n2 4 3\n3 3 6\n5 3 2\n5 3 7\n",
+        "output": "2\n2\n5\n4\n"
+      },
+      {
+        "input": "5 5\n1 2 1 2 8\n2\n3 4\n4\n2 3\n5 5 5 5 5 1 5 5\n2 4 3\n3 2 6\n5 3 2\n5 3 7\n5 3 1000000000000000000\n",
+        "output": "2\n3\n5\n4\n2\n"
+      }
+    ]
   }
 }
