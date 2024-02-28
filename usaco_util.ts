@@ -6,7 +6,7 @@ const problems = require('./problems.json') as { [key: string]: ProblemData };
 let report = 'added problems:\n```\n';
 
 async function addProblem(id: number) {
-  // console.log('Adding problem', id);
+  console.log('Adding problem ', id);
   try {
     const url = `https://usaco.org/index.php?page=viewproblem2&cpid=${id}`;
     const response = await axios.get(url);
