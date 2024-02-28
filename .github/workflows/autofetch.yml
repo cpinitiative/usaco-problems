@@ -19,16 +19,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Run auto updates
-        run: |
-          npm i 
-          npx ts-node --skipProject usaco_util.ts
-          source push.sh
+      - name: Install dependencies
+        run: npm i
+      - name: Add problems
+        run: npx ts-node --skipProject usaco_util.ts
+      - name: Push changes
+        run: source push.sh
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Update usacoProblems for IDE
-        run: |
-          npx ts-node update_ide
+        run: npx ts-node update_ide
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
       - name: Generate a token
