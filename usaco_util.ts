@@ -9,8 +9,8 @@ async function addProblem(id: number) {
   console.log('Adding problem ', id);
   try {
     const url = `https://usaco.org/index.php?page=viewproblem2&cpid=${id}`;
-    const response = await axios.get(url);
-    const htmlContent: string = response.data;
+    const response = await (await fetch(url)).text();
+    const htmlContent: string = response;
     const problem = htmlContent.match(/<h2> Problem (\d). (.*) <\/h2>/)!;
     const number = problem[1],
       title = problem[2];
