@@ -15396,5 +15396,365 @@
         "output": "2\n3\n5\n4\n2\n"
       }
     ]
+  },
+  "1419": {
+    "id": 1419,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1419",
+    "source": {
+      "sourceString": "2024 US Open Bronze",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Logical Moos",
+      "place": 1,
+      "name": "Logical Moos"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5 7\nfalse and true or true\n1 1 false\n1 3 true\n1 5 false\n3 3 true\n3 3 false\n5 5 false\n5 5 true\n",
+        "output": "NYYYNYY\n"
+      },
+      {
+        "input": "13 4\nfalse or true and false and false and true or true and false\n1 5 false\n3 11 true\n3 11 false\n13 13 true\n",
+        "output": "YNYY\n"
+      }
+    ]
+  },
+  "1420": {
+    "id": 1420,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1420",
+    "source": {
+      "sourceString": "2024 US Open Bronze",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Walking Along a Fence",
+      "place": 2,
+      "name": "Walking Along a Fence"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5 4\n0 0\n2 0\n2 2\n0 2\n0 0 0 2\n0 2 1 0\n2 1 0 2\n1 0 1 2\n1 2 1 0\n",
+        "output": "2\n3\n3\n4\n4\n"
+      }
+    ]
+  },
+  "1421": {
+    "id": 1421,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1421",
+    "source": {
+      "sourceString": "2024 US Open Bronze",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Farmer John's Favorite Permutation",
+      "place": 3,
+      "name": "Farmer John's Favorite Permutation"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5\n2\n1\n2\n2\n4\n1 1 1\n4\n2 1 1\n4\n3 2 1\n",
+        "output": "1 2\n-1\n-1\n3 1 2 4\n1 2 3 4\n"
+      }
+    ]
+  },
+  "1422": {
+    "id": 1422,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1422",
+    "source": {
+      "sourceString": "2024 US Open Silver",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Bessie's Interview",
+      "place": 1,
+      "name": "Bessie's Interview"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "6 3\n3 1 4159 2 6 5\n",
+        "output": "8\n110\n"
+      }
+    ]
+  },
+  "1423": {
+    "id": 1423,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1423",
+    "source": {
+      "sourceString": "2024 US Open Silver",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Painting Fence Posts",
+      "place": 2,
+      "name": "Painting Fence Posts"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5 4\n3 1\n1 5\n3 5\n1 1\n2 1 1 5\n1 5 3 4\n3 1 3 5\n2 1 2 1\n3 2 3 3\n",
+        "output": "1\n2\n2\n1\n"
+      },
+      {
+        "input": "2 8\n1 1\n1 2\n0 2\n0 3\n0 0\n0 1\n2 3\n2 0\n1 1 2 1\n1 0 1 3\n",
+        "output": "1\n0\n0\n0\n1\n1\n1\n2\n"
+      },
+      {
+        "input": "1 12\n0 0\n2 0\n2 1\n1 1\n1 2\n3 2\n3 3\n1 3\n1 4\n2 4\n2 5\n0 5\n2 2 0 2\n",
+        "output": "1\n1\n1\n1\n1\n0\n0\n0\n0\n0\n0\n0\n"
+      }
+    ]
+  },
+  "1424": {
+    "id": 1424,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1424",
+    "source": {
+      "sourceString": "2024 US Open Silver",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. The 'Winning' Gene",
+      "place": 3,
+      "name": "The 'Winning' Gene"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "8\nAGTCAACG\n",
+        "output": "11\n10\n5\n4\n2\n2\n1\n1\n"
+      }
+    ]
+  },
+  "1425": {
+    "id": 1425,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1425",
+    "source": {
+      "sourceString": "2024 US Open Gold",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Cowreography",
+      "place": 1,
+      "name": "Cowreography"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4 1\n0111\n1110\n",
+        "output": "3\n"
+      },
+      {
+        "input": "5 2\n11000\n00011\n",
+        "output": "3\n"
+      },
+      {
+        "input": "5 4\n11000\n00011\n",
+        "output": "2\n"
+      }
+    ]
+  },
+  "1426": {
+    "id": 1426,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1426",
+    "source": {
+      "sourceString": "2024 US Open Gold",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Grass Segments",
+      "place": 2,
+      "name": "Grass Segments"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2\n3 6 3\n4 7 2\n",
+        "output": "0\n1\n"
+      },
+      {
+        "input": "4\n3 6 1\n2 5 1\n4 10 1\n1 4 1\n",
+        "output": "3\n3\n2\n2\n"
+      },
+      {
+        "input": "5\n8 10 2\n4 9 2\n3 7 4\n5 7 1\n2 7 1\n",
+        "output": "0\n3\n1\n3\n3\n"
+      }
+    ]
+  },
+  "1427": {
+    "id": 1427,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1427",
+    "source": {
+      "sourceString": "2024 US Open Gold",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Smaller Averages",
+      "place": 3,
+      "name": "Smaller Averages"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2\n1 2\n2 2\n",
+        "output": "2\n"
+      },
+      {
+        "input": "3\n1 3 2\n2 2 2\n",
+        "output": "3\n"
+      },
+      {
+        "input": "5\n2 5 1 3 2\n2 1 5 2 2\n",
+        "output": "1\n"
+      },
+      {
+        "input": "7\n3 5 2 3 4 4 1\n5 3 5 3 3 4 1\n",
+        "output": "140\n"
+      }
+    ]
+  },
+  "1428": {
+    "id": 1428,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1428",
+    "source": {
+      "sourceString": "2024 US Open Platinum",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Identity Theft",
+      "place": 1,
+      "name": "Identity Theft"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n1\n1\n1\n",
+        "output": "5\n"
+      },
+      {
+        "input": "3\n1\n11\n111\n",
+        "output": "2\n"
+      },
+      {
+        "input": "3\n1\n1\n11\n",
+        "output": "4\n"
+      },
+      {
+        "input": "5\n0\n01\n0011\n010\n01\n",
+        "output": "6\n"
+      },
+      {
+        "input": "14\n0\n1\n1\n0\n1\n0\n1\n1\n1\n1\n1\n0\n0\n1\n",
+        "output": "41\n"
+      }
+    ]
+  },
+  "1429": {
+    "id": 1429,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1429",
+    "source": {
+      "sourceString": "2024 US Open Platinum",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Splitting Haybales",
+      "place": 2,
+      "name": "Splitting Haybales"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2\n3 1\n15\n1 1 -2\n1 1 -1\n1 1 0\n1 1 1\n1 1 2\n1 2 -2\n1 2 -1\n1 2 0\n1 2 1\n1 2 2\n2 2 -2\n2 2 -1\n2 2 0\n2 2 1\n2 2 2\n",
+        "output": "1\n2\n3\n-2\n-1\n0\n1\n2\n-1\n0\n-1\n0\n1\n0\n1\n"
+      },
+      {
+        "input": "5\n4 4 3 1 1\n7\n1 1 20\n1 2 20\n1 5 20\n1 1 0\n1 5 0\n1 4 0\n3 5 2\n",
+        "output": "16\n12\n7\n4\n1\n2\n1\n"
+      }
+    ]
+  },
+  "1430": {
+    "id": 1430,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1430",
+    "source": {
+      "sourceString": "2024 US Open Platinum",
+      "year": 2024,
+      "contest": "US Open",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Activating Robots",
+      "place": 3,
+      "name": "Activating Robots"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "10 2 1 2\n6\n",
+        "output": "22\n"
+      },
+      {
+        "input": "10 2 1 2\n7\n",
+        "output": "4\n"
+      },
+      {
+        "input": "32 4 5 2\n0 23 12 5 11\n",
+        "output": "48\n"
+      },
+      {
+        "input": "24 3 1 2\n16\n",
+        "output": "48\n"
+      }
+    ]
   }
 }
