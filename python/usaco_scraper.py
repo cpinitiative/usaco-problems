@@ -1,6 +1,7 @@
 import json
 import re
 import sys
+import os
 from typing import Dict, List, TypedDict
 import requests
 
@@ -101,29 +102,42 @@ def add_problem(problem_id: int, problems: Dict[str, ProblemData]) -> bool:
 
 
 def main():
-    # Load existing problems
-    with open('problems.json', 'r') as f:
-        problems = json.load(f)
+    """Main function to scrape USACO problems."""
+    # Load existing problems or create empty dict if file doesn't exist
+    try:
+        with open('data_private/usaco/problems.json', 'r') as f:
+            problems = json.load(f)
+        LAST_ID = max(int(id_) for id_ in problems.keys())
+    except FileNotFoundError:
+        problems = {}
+        LAST_ID = 0
 
     # Maximum gap between consecutive contest IDs
     MAX_GAP = 20
-    LAST_ID = max(int(id_) for id_ in problems.keys())
     
     last_added = LAST_ID
     current_id = last_added + 1
-    
-    # Keep trying new IDs until we hit a gap of MAX_GAP with no valid problems
-    while current_id - last_added < MAX_GAP:
+    consecutive_failures = 0
+
+    while consecutive_failures < MAX_GAP:
         if add_problem(current_id, problems):
+            consecutive_failures = 0
             last_added = current_id
+            print(f"Added problem {current_id}")
+        else:
+            consecutive_failures += 1
+            print(f"Failed to find problem {current_id}")
         current_id += 1
 
-    # If we found new problems, save the updated problems.json
-    if last_added > LAST_ID:
-        with open('problems.json', 'w') as f:
-            json.dump(problems, f, indent=2)
-    else:
-        sys.exit(0)
+    # Create directory if it doesn't exist
+    os.makedirs('data_private/usaco', exist_ok=True)
+    
+    # Save problems to file
+    with open('data_private/usaco/problems.json', 'w') as f:
+        json.dump(problems, f, indent=2)
+
+    print(f"Last successful ID: {last_added}")
+    print(f"Consecutive failures: {consecutive_failures}")
 
 
 if __name__ == "__main__":
