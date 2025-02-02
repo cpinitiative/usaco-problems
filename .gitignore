@@ -1,2 +1,4 @@
 node_modules/
 out/
+python/data_private/
+.env
