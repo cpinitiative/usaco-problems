@@ -16092,5 +16092,353 @@
         "output": "0\n538184948\n693625420\n932738155\n251798971\n"
       }
     ]
+  },
+  "1467": {
+    "id": 1467,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1467",
+    "source": {
+      "sourceString": "2025 January Bronze",
+      "year": 2025,
+      "contest": "January",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Astral Superposition",
+      "place": 1,
+      "name": "Astral Superposition"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "1\n3 0 0\nWWB\nBBB\nGGG\n",
+        "output": "7\n"
+      },
+      {
+        "input": "3\n5 1 2\nGWGWW\nWGWWW\nWBWGW\nWWWWW\nWWGWW\n3 1 1\nWWW\nWBW\nWWW\n3 1 0\nGGB\nGGW\nWWW\n",
+        "output": "4\n-1\n4\n"
+      }
+    ]
+  },
+  "1468": {
+    "id": 1468,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1468",
+    "source": {
+      "sourceString": "2025 January Bronze",
+      "year": 2025,
+      "contest": "January",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. It's Mooin' Time II",
+      "place": 2,
+      "name": "It's Mooin' Time II"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "6\n1 2 3 4 4 4\n",
+        "output": "3\n"
+      }
+    ]
+  },
+  "1469": {
+    "id": 1469,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1469",
+    "source": {
+      "sourceString": "2025 January Bronze",
+      "year": 2025,
+      "contest": "January",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Cow Checkups",
+      "place": 3,
+      "name": "Cow Checkups"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n1 3 2\n3 2 1\n",
+        "output": "3\n3\n0\n0\n"
+      },
+      {
+        "input": "3\n1 2 3\n1 2 3\n",
+        "output": "0\n3\n0\n3\n"
+      },
+      {
+        "input": "7\n1 3 2 2 1 3 2\n3 2 2 1 2 3 1\n",
+        "output": "0\n6\n14\n6\n2\n0\n0\n0\n"
+      }
+    ]
+  },
+  "1470": {
+    "id": 1470,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1470",
+    "source": {
+      "sourceString": "2025 January Silver",
+      "year": 2025,
+      "contest": "January",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Cow Checkups",
+      "place": 1,
+      "name": "Cow Checkups"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n1 3 2\n3 2 1\n",
+        "output": "3\n"
+      },
+      {
+        "input": "3\n1 2 3\n1 2 3\n",
+        "output": "12\n"
+      },
+      {
+        "input": "7\n1 3 2 2 1 3 2\n3 2 2 1 2 3 1\n",
+        "output": "60\n"
+      }
+    ]
+  },
+  "1471": {
+    "id": 1471,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1471",
+    "source": {
+      "sourceString": "2025 January Silver",
+      "year": 2025,
+      "contest": "January",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Farmer John's Favorite Operation",
+      "place": 2,
+      "name": "Farmer John's Favorite Operation"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2\n5 9\n15 12 18 3 8\n3 69\n1 988244353 998244853\n",
+        "output": "10\n21\n"
+      }
+    ]
+  },
+  "1472": {
+    "id": 1472,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1472",
+    "source": {
+      "sourceString": "2025 January Silver",
+      "year": 2025,
+      "contest": "January",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Table Recovery",
+      "place": 3,
+      "name": "Table Recovery"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "1\n2\n",
+        "output": "2\n"
+      },
+      {
+        "input": "3\n3 4 2\n5 2 3\n6 3 5\n",
+        "output": "4 2 3\n5 3 4\n6 4 5\n"
+      },
+      {
+        "input": "6\n8 10 5 6 7 4\n12 11 10 4 8 2\n5 4 6 7 9 8\n10 2 4 8 5 12\n6 8 7 9 3 5\n4 12 8 5 6 10\n",
+        "output": "7 5 8 9 10 6\n4 2 5 6 7 3\n8 6 9 10 11 7\n5 3 6 7 8 4\n9 7 10 11 12 8\n6 4 7 8 9 5\n"
+      }
+    ]
+  },
+  "1473": {
+    "id": 1473,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1473",
+    "source": {
+      "sourceString": "2025 January Gold",
+      "year": 2025,
+      "contest": "January",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Median Heap",
+      "place": 1,
+      "name": "Median Heap"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5\n10 10000\n30 1000\n20 100\n50 10\n40 1\n11\n55\n50\n45\n40\n35\n30\n25\n20\n15\n10\n5\n",
+        "output": "111\n101\n101\n100\n100\n100\n100\n0\n11\n11\n111\n"
+      }
+    ]
+  },
+  "1474": {
+    "id": 1474,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1474",
+    "source": {
+      "sourceString": "2025 January Gold",
+      "year": 2025,
+      "contest": "January",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Reachable Pairs",
+      "place": 2,
+      "name": "Reachable Pairs"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 2\n111\n1 2\n1 3\n",
+        "output": "3\n1\n0\n"
+      },
+      {
+        "input": "3 2\n000\n1 2\n1 3\n",
+        "output": "3\n0\n0\n"
+      },
+      {
+        "input": "7 8\n1101101\n6 2\n1 2\n2 3\n6 3\n1 3\n1 7\n4 5\n2 7\n",
+        "output": "11\n7\n4\n2\n1\n1\n0\n"
+      }
+    ]
+  },
+  "1475": {
+    "id": 1475,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1475",
+    "source": {
+      "sourceString": "2025 January Gold",
+      "year": 2025,
+      "contest": "January",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Photo Op",
+      "place": 3,
+      "name": "Photo Op"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4 5\n6 7\n1 7 5\n2 4 4\n3 1 6\n4 2 9\n",
+        "output": "9\n9\n9\n10\n12\n"
+      },
+      {
+        "input": "2 3\n10 7\n1 2 10\n1 9 1\n",
+        "output": "12\n16\n16\n"
+      },
+      {
+        "input": "5 6\n8 9\n1 3 5\n1 4 1\n3 10 7\n4 9 2\n5 6 6\n",
+        "output": "12\n12\n12\n12\n14\n14\n"
+      }
+    ]
+  },
+  "1476": {
+    "id": 1476,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1476",
+    "source": {
+      "sourceString": "2025 January Platinum",
+      "year": 2025,
+      "contest": "January",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. DFS Order",
+      "place": 1,
+      "name": "DFS Order"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4\n1\n2 3\n40 6 11\n",
+        "output": "10\n"
+      },
+      {
+        "input": "5\n-1\n10 -2\n10 -7 10\n-6 -4 -5 10\n",
+        "output": "5\n"
+      },
+      {
+        "input": "4\n-1\n-2 300\n4 -5 6\n",
+        "output": "9\n"
+      }
+    ]
+  },
+  "1477": {
+    "id": 1477,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1477",
+    "source": {
+      "sourceString": "2025 January Platinum",
+      "year": 2025,
+      "contest": "January",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Shock Wave",
+      "place": 2,
+      "name": "Shock Wave"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "6\n5\n0 2 4 5 8\n5\n6 5 4 5 6\n5\n1 1 1 1 1\n5\n12 10 8 6 4\n7\n6 1 2 3 5 8 13\n2\n1000000000000000000 1000000000000000000\n",
+        "output": "2\n3\n2\n4\n4\n2000000000000000000\n"
+      }
+    ]
+  },
+  "1478": {
+    "id": 1478,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1478",
+    "source": {
+      "sourceString": "2025 January Platinum",
+      "year": 2025,
+      "contest": "January",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Watering the Plants",
+      "place": 3,
+      "name": "Watering the Plants"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n39 69 33\n30 29\n",
+        "output": "2070\n2127\n"
+      },
+      {
+        "input": "3\n33 82 36\n19 1\n",
+        "output": "1558\n676\n"
+      },
+      {
+        "input": "8\n35 89 44 1 35 3 62 50\n7 86 94 62 63 9 49\n",
+        "output": "623\n4099\n4114\n6269\n6272\n6827\n8827\n"
+      }
+    ]
   }
 }
