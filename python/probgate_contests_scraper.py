@@ -315,51 +315,53 @@ def scrape_probgate():
         # Parse the page content
         soup = BeautifulSoup(contest_page.text, 'html.parser')
         
-        # Find the sortable table
-        table = soup.find('table', {'class': 'sortable'})
-        if not table:
-            print("No contest table found")
+        # Find all contest tables - they have class 'subtable sortable'
+        tables = soup.find_all('table', {'class': 'subtable sortable'})
+        if not tables:
+            print("No contest tables found")
             return None, None
             
         contests = {}
-        for row in table.find_all('tr')[1:]:  # Skip header row
-            cols = row.find_all('td')
-            if len(cols) >= 2:
-                contest_id = cols[0].text.strip()
-                contest_link = cols[1].find('a')
-                if contest_link:
-                    contest_name = contest_link.text.strip()
-                    
-                    # Skip contests after cutoff date
-                    if not is_contest_before_cutoff(contest_name):
-                        print(f"Skipping {contest_name} (ID: {contest_id}) - after cutoff date")
-                        continue
-                    
-                    # Skip if we already have this contest and its problems
-                    if contest_id in existing_contests and 'problems' in existing_contests[contest_id]:
-                        print(f"Skipping {contest_name} (ID: {contest_id}) - already scraped")
-                        contests[contest_id] = existing_contests[contest_id]
-                        continue
-                    
-                    info = parse_contest_info(contest_name)
-                    if info:
-                        print(f"Scraping {contest_name} (ID: {contest_id})...")
-                        problems = get_contest_problems(session, contest_id)
+        for table in tables:
+            # Skip header row
+            for row in table.find_all('tr')[1:]:  
+                cols = row.find_all('td')
+                if len(cols) >= 2:
+                    contest_id = cols[0].text.strip()
+                    contest_link = cols[1].find('a')
+                    if contest_link:
+                        contest_name = contest_link.text.strip()
                         
-                        contests[contest_id] = {
-                            'contest_id': contest_id,
-                            'name': contest_name,
-                            'month': info['month'],
-                            'year': info['year'],
-                            'division': info['division'],
-                            'problems': problems
-                        }
+                        # Skip contests after cutoff date
+                        if not is_contest_before_cutoff(contest_name):
+                            print(f"Skipping {contest_name} (ID: {contest_id}) - after cutoff date or invalid date")
+                            continue
                         
-                        # Save progress after each contest
-                        save_contests(contests)
+                        # Skip if we already have this contest and its problems
+                        if contest_id in existing_contests and 'problems' in existing_contests[contest_id]:
+                            print(f"Skipping {contest_name} (ID: {contest_id}) - already scraped")
+                            contests[contest_id] = existing_contests[contest_id]
+                            continue
                         
-                        # Add a small delay between requests
-                        time.sleep(REQUEST_DELAY)
+                        info = parse_contest_info(contest_name)
+                        if info:
+                            print(f"Scraping {contest_name} (ID: {contest_id})...")
+                            problems = get_contest_problems(session, contest_id)
+                            
+                            contests[contest_id] = {
+                                'contest_id': contest_id,
+                                'name': contest_name,
+                                'month': info['month'],
+                                'year': info['year'],
+                                'division': info['division'],
+                                'problems': problems
+                            }
+                            
+                            # Save progress after each contest
+                            save_contests(contests)
+                            
+                            # Add a small delay between requests
+                            time.sleep(REQUEST_DELAY)
         
         print(f"\nSuccessfully saved {len(contests)} contests to 'data_private/probgate/contests.json'")
         return session, contests
