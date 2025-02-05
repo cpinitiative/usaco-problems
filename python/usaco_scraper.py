@@ -126,7 +126,6 @@ def main():
             print(f"Added problem {current_id}")
         else:
             consecutive_failures += 1
-            print(f"Failed to find problem {current_id}")
         current_id += 1
 
     # Create directory if it doesn't exist

@@ -18,8 +18,8 @@ logging.basicConfig(level=logging.WARNING)
 REQUEST_DELAY = 0.12  # seconds between requests
 
 # Contest cutoff - don't scrape contests after this date
-CUTOFF_MONTH = 12  # December
-CUTOFF_YEAR = 24   # 2024
+CUTOFF_MONTH = 1
+CUTOFF_YEAR = 25
 
 def parse_contest_date(contest_name):
     """Parse month and year from contest name (e.g., 'DEC24 Bronze')"""
