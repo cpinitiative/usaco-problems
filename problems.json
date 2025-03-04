@@ -16440,5 +16440,337 @@
         "output": "623\n4099\n4114\n6269\n6272\n6827\n8827\n"
       }
     ]
+  },
+  "1491": {
+    "id": 1491,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1491",
+    "source": {
+      "sourceString": "2025 February Bronze",
+      "year": 2025,
+      "contest": "February",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Reflection",
+      "place": 1,
+      "name": "Reflection"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4 5\n..#.\n##.#\n####\n..##\n1 3\n2 3\n4 3\n4 4\n4 4\n",
+        "output": "4\n3\n2\n1\n0\n1\n"
+      }
+    ]
+  },
+  "1492": {
+    "id": 1492,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1492",
+    "source": {
+      "sourceString": "2025 February Bronze",
+      "year": 2025,
+      "contest": "February",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Making Mexes",
+      "place": 2,
+      "name": "Making Mexes"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4\n2 2 2 0\n",
+        "output": "1\n0\n3\n1\n2\n"
+      }
+    ]
+  },
+  "1493": {
+    "id": 1493,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1493",
+    "source": {
+      "sourceString": "2025 February Bronze",
+      "year": 2025,
+      "contest": "February",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Printing Sequences",
+      "place": 3,
+      "name": "Printing Sequences"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2\n1 1\n1\n4 1\n1 1 1 1\n",
+        "output": "YES\nYES\n"
+      },
+      {
+        "input": "11\n4 2\n1 2 2 2\n4 2\n1 1 2 1\n4 2\n1 1 2 2\n6 2\n1 1 2 2 1 1\n10 2\n1 1 1 2 2 1 1 1 2 2\n8 3\n3 3 1 2 2 1 2 2\n9 3\n1 1 2 2 2 3 3 3 3\n16 3\n2 2 3 2 2 3 1 1 2 2 3 2 2 3 1 1\n24 3\n1 1 2 2 3 3 3 2 2 3 3 3 1 1 2 2 3 3 3 2 2 3 3 3\n9 3\n1 2 2 1 3 3 1 2 2\n6 3\n1 2 1 2 2 3\n",
+        "output": "YES\nNO\nYES\nNO\nYES\nYES\nYES\nYES\nYES\nNO\nNO\n"
+      }
+    ]
+  },
+  "1494": {
+    "id": 1494,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1494",
+    "source": {
+      "sourceString": "2025 February Silver",
+      "year": 2025,
+      "contest": "February",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. The Best Lineup",
+      "place": 1,
+      "name": "The Best Lineup"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n5\n4 3 2 1 3\n6\n5 1 2 6 3 4\n6\n4 1 3 2 1 1\n",
+        "output": "4 3 3 2 1\n6 5 4\n4 3 2 1 1\n"
+      }
+    ]
+  },
+  "1495": {
+    "id": 1495,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1495",
+    "source": {
+      "sourceString": "2025 February Silver",
+      "year": 2025,
+      "contest": "February",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Vocabulary Quiz",
+      "place": 2,
+      "name": "Vocabulary Quiz"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5\n0 1 2 3 4\n5\n",
+        "output": "0\n"
+      },
+      {
+        "input": "4\n0 0 1 1\n4\n3\n2\n",
+        "output": "2\n1\n0\n"
+      },
+      {
+        "input": "4\n0 0 1 1\n2\n3\n4\n",
+        "output": "1\n2\n0\n"
+      }
+    ]
+  },
+  "1496": {
+    "id": 1496,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1496",
+    "source": {
+      "sourceString": "2025 February Silver",
+      "year": 2025,
+      "contest": "February",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Transforming Pairs",
+      "place": 3,
+      "name": "Transforming Pairs"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4\n5 3 5 2\n5 3 8 19\n5 3 19 8\n5 3 5 3\n",
+        "output": "-1\n3\n-1\n0\n"
+      },
+      {
+        "input": "1\n1 1 1 1000000000000000000\n",
+        "output": "999999999999999999\n"
+      }
+    ]
+  },
+  "1497": {
+    "id": 1497,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1497",
+    "source": {
+      "sourceString": "2025 February Gold",
+      "year": 2025,
+      "contest": "February",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Bessie's Function",
+      "place": 1,
+      "name": "Bessie's Function"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5\n2 4 4 5 3\n1 1 1 1 1\n",
+        "output": "3\n"
+      },
+      {
+        "input": "8\n1 2 5 5 3 3 4 4\n9 9 2 5 9 9 9 9\n",
+        "output": "7\n"
+      }
+    ]
+  },
+  "1498": {
+    "id": 1498,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1498",
+    "source": {
+      "sourceString": "2025 February Gold",
+      "year": 2025,
+      "contest": "February",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. The Best Subsequence",
+      "place": 2,
+      "name": "The Best Subsequence"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5 3 9\n1 5\n2 4\n3 3\n1 5 5\n1 5 4\n1 5 3\n1 5 2\n1 5 1\n2 5 4\n2 5 3\n2 5 2\n2 5 1\n",
+        "output": "21\n13\n7\n3\n1\n5\n5\n3\n1\n"
+      },
+      {
+        "input": "9 1 1\n7 9\n1 8 8\n",
+        "output": "3\n"
+      },
+      {
+        "input": "30 1 1\n1 30\n1 30 30\n",
+        "output": "73741816\n"
+      }
+    ]
+  },
+  "1499": {
+    "id": 1499,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1499",
+    "source": {
+      "sourceString": "2025 February Gold",
+      "year": 2025,
+      "contest": "February",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Friendship Editing",
+      "place": 3,
+      "name": "Friendship Editing"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 1\n1 2\n",
+        "output": "1\n"
+      },
+      {
+        "input": "3 2\n1 2\n2 3\n",
+        "output": "0\n"
+      },
+      {
+        "input": "4 4\n1 2\n1 3\n1 4\n2 3\n",
+        "output": "1\n"
+      }
+    ]
+  },
+  "1500": {
+    "id": 1500,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1500",
+    "source": {
+      "sourceString": "2025 February Platinum",
+      "year": 2025,
+      "contest": "February",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Min Max Subarrays",
+      "place": 1,
+      "name": "Min Max Subarrays"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2\n2 1\n",
+        "output": "4\n"
+      },
+      {
+        "input": "3\n3 1 3\n",
+        "output": "12\n"
+      },
+      {
+        "input": "4\n2 4 1 3\n",
+        "output": "22\n"
+      }
+    ]
+  },
+  "1501": {
+    "id": 1501,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1501",
+    "source": {
+      "sourceString": "2025 February Platinum",
+      "year": 2025,
+      "contest": "February",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Transforming Pairs",
+      "place": 2,
+      "name": "Transforming Pairs"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4\n5 -3 -1 -3\n5 3 5 2\n5 3 8 19\n5 3 5 3\n",
+        "output": "2\n-1\n3\n0\n"
+      }
+    ]
+  },
+  "1502": {
+    "id": 1502,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1502",
+    "source": {
+      "sourceString": "2025 February Platinum",
+      "year": 2025,
+      "contest": "February",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. True or False Test",
+      "place": 3,
+      "name": "True or False Test"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2 3\n3 1\n4 2\n2\n1\n0\n",
+        "output": "-3\n1\n7\n"
+      }
+    ]
   }
 }
