@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.WARNING)
 REQUEST_DELAY = 0.12  # seconds between requests
 
 # Contest cutoff - don't scrape contests after this date
-CUTOFF_MONTH = 1
+CUTOFF_MONTH = 3
 CUTOFF_YEAR = 25
 
 def parse_contest_date(contest_name):
