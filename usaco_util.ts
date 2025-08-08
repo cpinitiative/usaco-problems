@@ -1,9 +1,16 @@
 import axios from 'axios';
-import { writeFileSync } from 'fs';
+import { writeFileSync, readFileSync } from 'fs';
 import { ProblemData } from './ProblemData';
 
-const problems = require('./problems.json') as { [key: string]: ProblemData };
+let problems: { [key: string]: ProblemData };
+try {
+  const problemsData = readFileSync('./problems.json', 'utf8');
+  problems = JSON.parse(problemsData) as { [key: string]: ProblemData };
+} catch (error) {
+  problems = {};
+}
 let report = 'added problems:\n```\n';
+
 
 async function addProblem(id: number) {
   try {

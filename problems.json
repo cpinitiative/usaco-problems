@@ -16772,5 +16772,333 @@
         "output": "-3\n1\n7\n"
       }
     ]
+  },
+  "1515": {
+    "id": 1515,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1515",
+    "source": {
+      "sourceString": "2025 US Open Bronze",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Hoof Paper Scissors Minus One",
+      "place": 1,
+      "name": "Hoof Paper Scissors Minus One"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 3\nD\nWD\nLWD\n1 2\n2 3\n1 1\n",
+        "output": "0\n0\n5\n"
+      }
+    ]
+  },
+  "1516": {
+    "id": 1516,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1516",
+    "source": {
+      "sourceString": "2025 US Open Bronze",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. More Cow Photos",
+      "place": 2,
+      "name": "More Cow Photos"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2\n4\n1 1 2 3\n4\n3 3 2 1\n",
+        "output": "3\n1\n"
+      }
+    ]
+  },
+  "1517": {
+    "id": 1517,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1517",
+    "source": {
+      "sourceString": "2025 US Open Bronze",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Bronze"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. It's Mooin' Time III",
+      "place": 3,
+      "name": "It's Mooin' Time III"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "12 5\nabcabbacabac\n1 12\n2 7\n4 8\n2 5\n3 10\n",
+        "output": "28\n6\n1\n-1\n12\n"
+      }
+    ]
+  },
+  "1518": {
+    "id": 1518,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1518",
+    "source": {
+      "sourceString": "2025 US Open Silver",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Sequence Construction",
+      "place": 1,
+      "name": "Sequence Construction"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3\n2 1\n33 5\n10 5\n",
+        "output": "2\n2 0\n3\n3 23 7 \n-1\n"
+      }
+    ]
+  },
+  "1519": {
+    "id": 1519,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1519",
+    "source": {
+      "sourceString": "2025 US Open Silver",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Compatible Pairs",
+      "place": 2,
+      "name": "Compatible Pairs"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4 4 5\n17 2\n100 0\n10 1\n200 4\n",
+        "output": "118\n"
+      },
+      {
+        "input": "4 4 5\n100 0\n10 1\n100 3\n20 4\n",
+        "output": "30\n"
+      }
+    ]
+  },
+  "1520": {
+    "id": 1520,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1520",
+    "source": {
+      "sourceString": "2025 US Open Silver",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Silver"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Ski Slope",
+      "place": 3,
+      "name": "Ski Slope"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "4\n1 20 200\n2 30 300\n2 10 100\n8\n19 0\n19 1\n19 2\n20 0\n20 1\n20 2\n29 0\n30 0\n",
+        "output": "0\n300\n500\n300\n500\n500\n300\n500\n"
+      }
+    ]
+  },
+  "1521": {
+    "id": 1521,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1521",
+    "source": {
+      "sourceString": "2025 US Open Gold",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Moo Decomposition",
+      "place": 1,
+      "name": "Moo Decomposition"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2 6 1\nMOOMOO\n",
+        "output": "1\n"
+      },
+      {
+        "input": "2 6 1\nMMOOOO\n",
+        "output": "6\n"
+      },
+      {
+        "input": "1 4 2\nMMOO\n",
+        "output": "4\n"
+      },
+      {
+        "input": "1 4 100\nMMOO\n",
+        "output": "976371285\n"
+      }
+    ]
+  },
+  "1522": {
+    "id": 1522,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1522",
+    "source": {
+      "sourceString": "2025 US Open Gold",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Election Queries",
+      "place": 2,
+      "name": "Election Queries"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5 3\n1 2 3 4 5\n3 4\n1 2\n5 2\n",
+        "output": "4\n3\n2\n"
+      },
+      {
+        "input": "8 5\n8 1 4 2 5 4 2 3\n7 4\n8 4\n4 1\n5 8\n8 4\n",
+        "output": "4\n4\n4\n7\n7\n"
+      }
+    ]
+  },
+  "1523": {
+    "id": 1523,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1523",
+    "source": {
+      "sourceString": "2025 US Open Gold",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Gold"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. OohMoo Milk",
+      "place": 3,
+      "name": "OohMoo Milk"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "5 4\n4 2\n4 10 8 10 10\n",
+        "output": "546\n"
+      },
+      {
+        "input": "10 5\n5 1\n1 2 3 4 5 6 7 8 9 10\n",
+        "output": "777\n"
+      },
+      {
+        "input": "5 1000000000\n3 1\n0 1 2 3 4\n",
+        "output": "10\n"
+      }
+    ]
+  },
+  "1524": {
+    "id": 1524,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1524",
+    "source": {
+      "sourceString": "2025 US Open Platinum",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "1. Forklift Certified",
+      "place": 1,
+      "name": "Forklift Certified"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "2 1\n4\n1 6 2 8\n6 2 7 3\n3 1 4 7\n5 4 8 5\n3\n1 5 3 6\n4 1 5 2\n2 3 6 4\n",
+        "output": "1 3 2 4\n2 3 1\n"
+      },
+      {
+        "input": "2 2\n4\n1 6 2 8\n6 2 7 3\n3 1 4 7\n5 4 8 5\n3\n1 5 3 6\n4 1 5 2\n2 3 6 4\n",
+        "output": "1011\n011\n"
+      }
+    ]
+  },
+  "1525": {
+    "id": 1525,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1525",
+    "source": {
+      "sourceString": "2025 US Open Platinum",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "2. Lazy Sort",
+      "place": 2,
+      "name": "Lazy Sort"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "3 2\n1 3\n3 2\n",
+        "output": "2\n"
+      },
+      {
+        "input": "6 3\n1 1\n3 3\n6 5\n",
+        "output": "89\n"
+      }
+    ]
+  },
+  "1526": {
+    "id": 1526,
+    "url": "https://usaco.org/index.php?page=viewproblem2&cpid=1526",
+    "source": {
+      "sourceString": "2025 US Open Platinum",
+      "year": 2025,
+      "contest": "US Open",
+      "division": "Platinum"
+    },
+    "submittable": true,
+    "title": {
+      "titleString": "3. Package Pickup",
+      "place": 3,
+      "name": "Package Pickup"
+    },
+    "input": "stdin",
+    "output": "stdout",
+    "samples": [
+      {
+        "input": "100 3 7\n10 10\n20 20\n30 30\n7 7\n11 11\n13 13\n17 17\n24 24\n26 26\n33 33\n",
+        "output": "22\n"
+      },
+      {
+        "input": "2 1 1\n1 5\n2 6\n",
+        "output": "3\n"
+      }
+    ]
   }
 }
